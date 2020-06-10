@@ -1,6 +1,6 @@
 ﻿export class MenuLateral {
 
-    clicarUsuarios() {
+    acessarUsuarios() {
         cy.get('#users').click()
     }
 
