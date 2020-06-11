@@ -1,4 +1,4 @@
-export class EditarUsuario {
+export class EdicaoDeUsuario {
     
     preencherCadastro(login,nome,email,idade) {
         cy.get('#user_login').clear().type(login)

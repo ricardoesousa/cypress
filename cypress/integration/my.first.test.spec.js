@@ -1,5 +1,5 @@
 ﻿import { MenuLateral } from "./pages/menu_lateral"
-import { ListaDeUsuarios } from "./pages/listar_usuarios"
+import { ListaDeUsuarios } from "./pages/lista_de_usuarios"
 const url = Cypress.config("baseUrl")
 const menuLateral = new MenuLateral ()
 const listaDeUsuarios = new ListaDeUsuarios ()

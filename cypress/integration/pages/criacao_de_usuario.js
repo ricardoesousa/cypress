@@ -1,4 +1,4 @@
-export class CriarNovoUsuario {
+export class CriacaoDeUsuario {
     
     preencherCadastro(login,nome,email,idade) {
         cy.get('#user_login').type(login)
